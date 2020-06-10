@@ -6,7 +6,7 @@ class Owner
   
 
   @@owner = []
-  @@cats = []
+  
   def initialize(name)
     @name = name
     @species = "human"
@@ -30,7 +30,7 @@ class Owner
   end
   
   def cats
-    owned_cat = @@cats.select {|cat| cat.owner == self}
+    owned_cat = Cat.select {|cat| cat.owner == self}
     owned_cat
   end
   
