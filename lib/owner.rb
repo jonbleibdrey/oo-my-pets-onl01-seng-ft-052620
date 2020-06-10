@@ -4,6 +4,7 @@ class Owner
   attr_writer
   attr_reader :name, :species
   
+  @@all
   
   def initialize(name)
     @name = name
@@ -15,7 +16,9 @@ class Owner
     "I am a #{@species}."
   end
   
-  
+  def self.all
+    
+  end
   
   
 
