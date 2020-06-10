@@ -1,6 +1,6 @@
 class Cat
   
-  attr_accessor:owner
+  attr_accessor :owner
   attr_writer
   attr_reader :name, 
   
