@@ -4,7 +4,8 @@ class Owner
   attr_writer
   attr_reader :name, :species
   
-  @@all
+
+  @@owner= []
   
   def initialize(name)
     @name = name
@@ -17,7 +18,7 @@ class Owner
   end
   
   def self.all
-    
+    @@Owner << self
   end
   
   
