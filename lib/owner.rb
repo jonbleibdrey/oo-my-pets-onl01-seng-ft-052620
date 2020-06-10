@@ -30,8 +30,7 @@ class Owner
   end
   
   def cats
-    
-    
+    Cats.each {|cat| cat.owner == self}
   end
   
 
