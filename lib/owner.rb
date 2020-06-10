@@ -17,8 +17,9 @@ class Owner
     "I am a #{@species}."
   end
   
-  def self.all
-    @@owner << self
+  def self.all(name, species)
+    @@owner << self.name.species
+    
   end
   
   
