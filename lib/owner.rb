@@ -19,7 +19,10 @@ class Owner
   
   def self.all()
     @@owner
-    
+  end
+  
+  def self.count
+    @@owner.size
   end
   
   
