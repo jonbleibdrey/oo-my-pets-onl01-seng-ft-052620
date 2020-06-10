@@ -34,5 +34,8 @@ class Owner
     owned_cat
   end
   
+  def dogs
+    owned_dog =
+  
 
 end
