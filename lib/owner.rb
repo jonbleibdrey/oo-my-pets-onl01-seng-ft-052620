@@ -31,6 +31,7 @@ class Owner
   
   def cats
     owned_cat = @@cats.select {|cat| cat.owner == self}
+    owned_cat
   end
   
 
