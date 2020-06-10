@@ -1,7 +1,12 @@
 class Cat
   
-  def initialize(owner)
-    @owner = owner
+  attr_accessor
+  attr_writer
+  attr_reader
+  
+  
+  def initialize(name)
+    @name = name
     
   end
   
